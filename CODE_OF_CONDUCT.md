@@ -1,3 +1,3 @@
 # Code of Conduct
 
-Don't be an asshole. Thank you.
+Don't be a jerk. 
