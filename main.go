@@ -50,6 +50,11 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	
+	err = os.Chmod(filepath.Join(kubeDir, "config"), 0600)
+    	if err != nil {
+        	log.Fatal(err)
+    	}
 
 	_, err = file.Write(kubectlOut)
 
